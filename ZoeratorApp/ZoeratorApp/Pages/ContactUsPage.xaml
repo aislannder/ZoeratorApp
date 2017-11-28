@@ -38,8 +38,7 @@
                 </StackLayout>
                 <Label Text="Site os Vigaristas">
                 </Label>
-                <Button Image="pepe">
-                </Button>
+                <Image Source="pepe" />
             </StackLayout>
             
         </ScrollView>
