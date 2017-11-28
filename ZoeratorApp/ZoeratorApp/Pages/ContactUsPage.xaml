@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ZoeratorApp;assembly=ZoeratorApp"
+             x:Class="ZoeratorApp.Pages.ContactUsPage" 
+             Title="Contato">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Padding="20" Spacing="10" BackgroundColor="#E4F1FE">
+                <!--Social Media section-->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="10">
+                    <Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="#3b5998" Clicked="Facebook_clicked" Image="Facebook_icon">
+                    </Button>
+                    <Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="#1da1f2" Clicked="Twitter_clicked" Image="Twitter_icon">
+                    </Button>
+                    <Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="#cd201f" Clicked="Youtube_clicked" Image="Youtube_icon">
+                    </Button>
+                    <Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="Gray" Clicked="Phone_clicked" Image="Phone_icon">
+                    </Button>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <BoxView HeightRequest="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black" />
+                    <Label Text="Equipe de Desenvolvimento">
+                    </Label>
+                    <BoxView HeightRequest="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black" />
+                </StackLayout>
+                <!--Contact us section-->
+                <Label Text="João Victor" x:Name="NameLabel">
+                </Label>
+                <Label Text="Aislannder Kenisson">
+                </Label>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <BoxView HeightRequest="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black" />
+                    <Label Text="Credito das Piadas">
+                    </Label>
+                    <BoxView HeightRequest="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black" />
+                </StackLayout>
+                <Label Text="Site os Vigaristas">
+                </Label>
+                <Button Image="pepe">
+                </Button>
+            </StackLayout>
+            
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

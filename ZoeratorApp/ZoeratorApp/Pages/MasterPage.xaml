@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZoeratorApp.Pages.MasterPage"
+             Padding="0,40,0,0" Title="Menu">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#2ecc71">
+
+            <StackLayout BackgroundColor="#2ecc71" HeightRequest="150">
+                <Label Text="Zoerator" FontSize="20" VerticalOptions="CenterAndExpand" TextColor="White"
+                 HorizontalOptions="Center"/>
+            </StackLayout>
+
+            <ListView x:Name="MenuListView" RowHeight="60" VerticalOptions="FillAndExpand" SeparatorVisibility="None" BackgroundColor="#E4F1FE">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Title}" TextColor="Black" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
