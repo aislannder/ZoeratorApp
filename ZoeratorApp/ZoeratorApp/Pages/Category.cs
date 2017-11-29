@@ -8,7 +8,7 @@ namespace ZoeratorApp.Pages
     {
         public string key { get; set; }
         public string name { get; set; }
-
+        
     }
 
     public class CategoryDataModel

@@ -9,6 +9,7 @@
             <StackLayout BackgroundColor="#2ecc71" HeightRequest="150">
                 <Label Text="Zoerator" FontSize="20" VerticalOptions="CenterAndExpand" TextColor="White"
                  HorizontalOptions="Center"/>
+                <Image Grid.Column="1" Source="icon_droid" IsVisible="true" />
             </StackLayout>
 
             <ListView x:Name="MenuListView" RowHeight="60" VerticalOptions="FillAndExpand" SeparatorVisibility="None" BackgroundColor="#E4F1FE">
