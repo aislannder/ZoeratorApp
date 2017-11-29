@@ -1,8 +1,6 @@
 # ZoeratorApp #
 App de paidas versão final
 
-[![Github-Release](https://img.shields.io/github/release/filoe/cscore.svg)](https://github.com/filoe/cscore/releases)
-
 Descrição do app!
 
 
